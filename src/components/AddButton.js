@@ -9,7 +9,7 @@ function AddButton(props) {
 	return (
 		<TouchableWithoutFeedback onPress={props.addBook}>
 			<View style={styles.view}>
-				<Icon {...styles.icon} />
+				<Icon {...styles.icon}/>
 			</View>
 		</TouchableWithoutFeedback>
 	);
